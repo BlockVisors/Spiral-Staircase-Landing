@@ -45,7 +45,7 @@ export default function Article() {
         className="px-8 py-12 bg-black bg-opacity-5 md:px-20 md:py-24"
         id="features"
       >
-        <h2 className="text-3xl font-semibold">What's under the hood?</h2>
+        <h2 className="text-3xl font-semibold">Under the hood?</h2>
         <p className="mt-2">
           This template repo uses some of the following features provided by
           Clerk. To learn more, read the{" "}
@@ -77,7 +77,7 @@ export default function Article() {
             <h3 className="text-lg font-medium">React Hooks</h3>
             <p className="text-gray-700">
               Build custom functionality by accessing auth state, user and
-              session data, and more with Clerk's React Hooks.
+              session data, and more with Clerk React Hooks.
             </p>
             <div className="grow"></div>
             <a
