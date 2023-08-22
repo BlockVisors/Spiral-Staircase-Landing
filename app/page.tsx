@@ -1,3 +1,4 @@
+"use client";
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Blog from "@/components/Blog";
@@ -23,9 +24,9 @@ export default function Home() {
       <Video />
       <Features />
       {/* <Brands /> */}
-      <Article />
       <AboutSectionOne />
       <AboutSectionTwo />
+      <Article />
       <Team />
       <Testimonials />
       <Pricing />

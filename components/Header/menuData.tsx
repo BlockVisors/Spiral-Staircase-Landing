@@ -28,7 +28,7 @@ const menuData: Menu[] = [
   {
     id: 6,
     title: "Vendors",
-    path: "http://google.com",
+    path: "/vendors",
     newTab: false,
   },
   {

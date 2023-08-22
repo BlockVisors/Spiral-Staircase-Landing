@@ -1,4 +1,10 @@
 "use client";
+import {
+  ClerkProvider,
+  OrganizationSwitcher,
+  SignedIn,
+  UserButton,
+} from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -174,41 +180,25 @@ const Header = () => {
                 </nav>
                </div>
 
-               {/* <nav className='flex items-center justify-between px-6 py-4 mb-5 bg-blue-700'> */}
-                  {/* <div className='flex items-center'>
-                    <Link href='/'>
-                      <div className='text-lg font-bold text-white uppercase'>
-                        Clerk App
-                      </div>
-                    </Link>
-                  </div>   
-
-                  <div className='flex items-center text-white'>
-                    {!userId && (
-                      <>
-                        <Link
-                          href='sign-in'
-                          className='text-gray-300 hover:text-white mr-4'
-                        >
-                          Sign In
-                        </Link>
-                        <Link
-                          href='sign-up'
-                          className='text-gray-300 hover:text-white mr-4'
-                        >
-                          Sign Up
-                        </Link>
-                      </>
-                    )}
-                    {userId && (
-                      <Link href='profile' className='text-gray-300 hover:text-white mr-4'>
-                        Profile
-                      </Link>
-                    )}
-                    <div className='ml-auto'>
-                      <UserButton afterSignOutUrl='/' />
-                    </div>
-                  </div> */}
+                 {/* <div className="grow" />
+            <SignedIn>
+              <div className="hidden sm:block">
+                <OrganizationSwitcher afterCreateOrganizationUrl="/dashboard" />
+              </div>
+              <div className="block sm:hidden">
+                <OrganizationSwitcher
+                  afterCreateOrganizationUrl="/dashboard"
+                  appearance={{
+                    elements: {
+                      organizationSwitcherTriggerIcon: `hidden`,
+                      organizationPreviewTextContainer: `hidden`,
+                      organizationSwitcherTrigger: `pr-0`,
+                    },
+                  }}
+                />
+              </div>
+              <UserButton afterSignOutUrl="/" />
+            </SignedIn> */}
 
                 {/* </nav> */}
                 <div className="flex items-center justify-end pr-16 lg:pr-0"> 

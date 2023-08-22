@@ -26,8 +26,7 @@ const Footer = () => {
                   </h1>
                 </Link>
                 <p className="mb-9 text-base font-medium leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  A Luxury Community for Moms & Expecting Mothers.
                 </p>
                 <div className="flex items-center">
                   <a

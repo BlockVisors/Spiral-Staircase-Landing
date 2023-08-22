@@ -124,7 +124,7 @@ export default function NewsLetter({}: Props) {
               <Field
                 type="email"
                 name="email"
-                className="w-full px-5 py-3 bg-white rounded-md outline-none grow"
+                className="w-full px-5 py-3 bg-white rounded-md outline-none grow text-black"
                 placeholder="Enter your email"
                 autoComplete="off"
               />
